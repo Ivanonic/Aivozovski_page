@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100, 400, 500, 700, 900;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background-color: var(--bg-main);
+}
