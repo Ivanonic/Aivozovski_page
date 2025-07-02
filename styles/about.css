@@ -30,7 +30,7 @@
     height: 88px;
     color: var(--color-main-black);
     text-align: justify;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 15px auto;
 }
 
 .about-subtitle-en {
@@ -52,6 +52,13 @@
     margin: 0 auto 0 auto;
 }
 
+@media (max-width: 760px) {
+
+    .about-description-ru {
+        margin: 0 auto 30px auto;
+    } 
+} 
+
 @media (max-width: 640px) {
 
     .about-description-ru {
@@ -67,10 +74,6 @@
 
 @media (max-width: 480px) {
 
-    /* .about-title {
-        font-size: 28px;
-    } */
-
     .about-subtitle-ru,
     .about-subtitle-en {
         font-size: 14px;
@@ -83,11 +86,10 @@
     }
 }
 
-
 @media (max-width: 480px) {
 
     .about-description-ru {
-        margin: 0 auto 50px auto;
+        margin: 0 auto 30px auto;
     }
 }
 
@@ -97,6 +99,7 @@
         margin: 0 auto 60px auto;
     }
 }
+
 @media (max-width: 315px) {
 
     .about-description-ru {

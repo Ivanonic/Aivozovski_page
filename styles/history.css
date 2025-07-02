@@ -1,0 +1,46 @@
+.history-section {
+    padding: 65px 0 70px 0;
+    text-align: center;
+}
+
+/* .container {
+} */
+
+.history-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--color-main-black);
+    margin: 0 0 60px 0;
+}
+
+.history-photo {
+    width: 100%;
+    max-width: 950px;
+    height: 655px;
+    object-fit: cover;
+    margin: 0 0 30px 0;
+}
+
+.history-description {
+    width: 100%;
+    max-width: 661px;
+    height: 26px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 auto 0 auto;
+}
+
+@media (max-width: 480px) {
+
+    .history-section {
+        padding: 50px 0 70px 0;
+    }
+
+    .history-photo {
+        height: 480px;
+    }
+
+    .history-description {
+        font-size: 14px;
+    }
+}
