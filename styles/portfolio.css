@@ -18,24 +18,25 @@
 }
 
 .portfolio-title::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        display: none;
-        width: 143px;
-        bottom: -0.1px;
-        height: 1px;
-        background-color: var(--font-color-grey);
-    }
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+    width: 143px;
+    bottom: -0.1px;
+    height: 1px;
+    background-color: var(--font-color-grey);
+}
     
 .portfolio-title:hover {
-        color: var(--font-color-grey);
-    }  
+    color: var(--font-color-grey);
+}  
     
 .portfolio-title:hover::after {
-        display: block;
-    }
+    display: block;
+    cursor: pointer;
+}
 
 .portfolio-photo_1 {
     width: min(100%, 950px);

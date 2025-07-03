@@ -35,6 +35,41 @@
         </div>
     </header>
 
+    <div class="mobile-navigation" aria-label="mobile navigation">
+        <label for="toggler-id" aria-label="open-close mobile-navigation Menu">
+            <svg class="mobile-navigation-burger" aria-label="burger icon">
+                <use href="/assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" class="mobile-navigation-toggler" id="toggler-id">
+
+        <nav class="mobile-navigation-menu" aria-label="mob header navigation">
+                <ul class="mobile-navigation-list" aria-label="mob header navigation list">
+                    <li>
+                        <a href="#home-id" class="mobile-navigation-link" aria-label="link to home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about-id" class="mobile-navigation-link" aria-label="link to about">About</a>
+                    </li>
+                    <li>
+                        <a href="#history-id" class="mobile-navigation-link" aria-label="link to history">History</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio-id" class="mobile-navigation-link" aria-label="link to portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contacts-id" class="mobile-navigation-link" aria-label="link to contacts">Contacts</a>
+                    </li>
+                </ul>
+            <label for="toggler-id" class="mobile-navigation-close" aria-label="open-close mobile-navigation Menu">
+                <svg class="mobile-navigation-cross" aria-label="cross icon">
+                    <use href="/assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
+
     <main class="main" aria-label="main">
         <section class="home" aria-label="home section" id="home-id">
             <div class="container">
@@ -69,13 +104,21 @@
 
         <section class="portfolio" aria-label="portfolio section" id="portfolio-id">
             <div class="container">
-                <h2 class="portfolio-title" aria-label="portfolio title"><a href="/assets/index.html">Portfolio</a></h2>
+                <h2 class="portfolio-title" aria-label="portfolio title"><a href="/assets/index.html">
+                Portfolio</a>
+                </h2>
                 <img src="/assets/webp/portfolio_1.webp" alt="Winter wagon train on the way" class="portfolio-photo_1">
-                <p class="portfolio-description_1" aria-label="portfolio description">Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857</p>
+                <p class="portfolio-description_1" aria-label="portfolio description_1">
+                Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857.
+                </p>
                 <img src="/assets/webp/portfolio_2.webp" alt="Rainbow" class="portfolio-photo_2">
-                <p class="portfolio-description_2" aria-label="portfolio description">Радуга, 1873 г. | Rainbow, 1873</p>
+                <p class="portfolio-description_2" aria-label="portfolio description_2">
+                Радуга, 1873 г. | Rainbow, 1873
+                </p>
                 <img src="/assets/webp/portfolio_3.webp" alt="The Ninth Wave" class="portfolio-photo_3">
-                <p class="portfolio-description_3" aria-label="portfolio description">Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893</p>
+                <p class="portfolio-description_3" aria-label="portfolio description_3">
+                Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893.
+                </p>
             </div>
         </section>
     </main>
@@ -83,24 +126,24 @@
     <footer class="footer" aria-label="footer section" id="contacts-id">
         <div class="container">
             <h2 class="contacts-title" aria-label="contacts title"><a href="/assets/index.html">Contacts</a></h2>
-            <a href="https://ayvazovskiy.su" target="_blank" class="button-link"><button class="contacts-button">ayvazovskiy.su</button></a>
+            <a href="https://ayvazovskiy.su" target="_blank" class="button-link">ayvazovskiy.su</a>
             <address class="social" aria-label="social links">
-                <a href="https://youtube.com" target="_blank" aria-labelledby="link to youtube">
+                <a href="https://youtube.com" target="_blank" aria-label="link to youtube">
                     <svg class="social-icon" aria-label="youtube icon">
                         <use href="/assets/sprites.svg#youtube-icon"></use>
                     </svg>
                 </a>
-                <a href="https://linkedin.com" target="_blank" aria-labelledby="link to linkedin">
+                <a href="https://linkedin.com" target="_blank" aria-label="link to linkedin">
                     <svg class="social-icon" aria-label="linkedin-icon">
                         <use href="/assets/sprites.svg#linkedin-icon"></use>
                     </svg>
                 </a>
-                <a href="https://instagram.com" target="_blank" aria-labelledby="link to instagram">
+                <a href="https://instagram.com" target="_blank" aria-label="link to instagram">
                     <svg class="social-icon" aria-label="instagram-icon">
                         <use href="/assets/sprites.svg#instagram-icon"></use>
                     </svg>
                 </a>
-                <a href="https://facebook.com" target="_blank" aria-labelledby="link to facebook">
+                <a href="https://facebook.com" target="_blank" aria-label="link to facebook">
                     <svg class="social-icon" aria-label="facebook-icon">
                         <use href="/assets/sprites.svg#facebook-icon"></use>
                     </svg>

@@ -18,24 +18,25 @@
 }
 
 .history-title::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        display: none;
-        width: 125px;
-        bottom: -0.1px;
-        height: 1px;
-        background-color: var(--font-color-grey);
-    }
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+    width: 125px;
+    bottom: -0.1px;
+    height: 1px;
+    background-color: var(--font-color-grey);
+}
     
 .history-title:hover {
-        color: var(--font-color-grey);
-    }  
+    color: var(--font-color-grey);
+}  
     
 .history-title:hover::after {
-        display: block;
-    }
+    display: block;
+    cursor: pointer;
+}
 
 .history-photo {
     width: 100%;
