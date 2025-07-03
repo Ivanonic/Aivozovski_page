@@ -1,0 +1,109 @@
+.portfolio-section {
+    background-color: var(--bg-main-grey);
+    padding: 80px 20px 100px 20px;
+    text-align: center;
+}
+
+/* .container {
+} */
+
+.portfolio-title {
+    width: 143px;
+    height: 38px;
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--color-main-black);
+    margin: 0 auto 70px auto;
+    position: relative;
+}
+
+.portfolio-title::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: none;
+        width: 143px;
+        bottom: -0.1px;
+        height: 1px;
+        background-color: var(--font-color-grey);
+    }
+    
+.portfolio-title:hover {
+        color: var(--font-color-grey);
+    }  
+    
+.portfolio-title:hover::after {
+        display: block;
+    }
+
+.portfolio-photo_1 {
+    width: min(100%, 950px);
+    height: min(100%, 630px);
+    object-fit: contain;
+    margin: 0 0 40px 0;
+}
+
+.portfolio-description_1 {
+    width: 100%;
+    max-width: 564px;
+    height: 26px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-main-black);
+    margin: 0 auto 75px auto;
+}
+
+.portfolio-photo_2 {
+    width: min(100%, 950px);
+    height: min(100%, 630px);
+    object-fit: contain;
+    margin: 0 0 40px 0;
+}
+
+.portfolio-description_2 {
+    width: 100%;
+    max-width: 265px;
+    height: 26px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-main-black);
+    margin: 0 auto 75px auto;
+}
+
+.portfolio-photo_3 {
+    width: min(100%, 950px);
+    height: min(100%, 630px);
+    object-fit: contain;
+    margin: 0 0 40px 0;
+}
+
+.portfolio-description_3 {
+    width: 100%;
+    max-width: 629px;
+    height: 26px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-main-black);
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+
+    .portfolio-description_1,
+    .portfolio-description_2 {
+        margin: 0 0 50px 0;
+    }
+
+    .portfolio-description_1,
+    .portfolio-description_2,
+    .portfolio-description_3 {
+        font-size: 14px;
+    }
+
+    .portfolio-photo_1,
+    .portfolio-photo_2,
+    .portfolio-photo_3 {
+        margin: 0 0 30px 0;
+    }
+}

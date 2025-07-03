@@ -7,11 +7,34 @@
 } */
 
 .history-title {
+    width: 125px;
+    height: 39px;
     font-size: 34px;
     font-weight: 700;
     color: var(--color-main-black);
-    margin: 0 0 60px 0;
+    margin: 0 auto 60px auto;
+    position: relative;
 }
+
+.history-title::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: none;
+        width: 125px;
+        bottom: -0.1px;
+        height: 1px;
+        background-color: var(--font-color-grey);
+    }
+    
+.history-title:hover {
+        color: var(--font-color-grey);
+    }  
+    
+.history-title:hover::after {
+        display: block;
+    }
 
 .history-photo {
     width: 100%;

@@ -4,15 +4,39 @@
     padding: 60px 30px 100px 0;
 }
 
-/* .container {
-} */
 
-.about-title {
-    font-size: 34px;
-    font-weight: 700;
-    color: var(--color-main-black);
-    margin: 0 0 42px 0;
-}
+/* .container {
+    } */
+    
+    .about-title {
+        width: 111px;
+        height: 38px;
+        font-size: 34px;
+        font-weight: 700;
+        color: var(--color-main-black);
+        margin: 0 auto 42px auto;
+        position: relative;
+    }
+
+    .about-title::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: none;
+        width: 111px;
+        bottom: -0.1px;
+        height: 1px;
+        background-color: var(--font-color-grey);
+    }
+    
+    .about-title:hover {
+        color: var(--font-color-grey);
+    }  
+    
+    .about-title:hover::after {
+        display: block;
+    }
 
 .about-subtitle-ru {
     font-size: 18px;
