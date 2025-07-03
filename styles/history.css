@@ -1,6 +1,7 @@
-.history-section {
+.history {
     padding: 65px 0 70px 0;
     text-align: center;
+    background-color: var(--bg-main);
 }
 
 /* .container {
@@ -55,7 +56,7 @@
 
 @media (max-width: 480px) {
 
-    .history-section {
+    .history {
         padding: 50px 0 70px 0;
     }
 

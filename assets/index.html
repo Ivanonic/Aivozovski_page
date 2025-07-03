@@ -34,7 +34,8 @@
             </nav>
         </div>
     </header>
-    <main aria-label="main">
+
+    <main class="main" aria-label="main">
         <section class="home" aria-label="home section" id="home-id">
             <div class="container">
                 <h1 class="home-title">Ivan Constantinovich Aivazovski</h1>
@@ -57,7 +58,7 @@
             </div>
         </section>
 
-        <section class="history-section" aria-label="history section" id="history-id">
+        <section class="history" aria-label="history section" id="history-id">
             <div class="container">
                 <h2 class="history-title" aria-label="history title"><a href="/assets/index.html">History</a></h2>
                 <img src="/assets/webp/history.webp" alt="history photo Aivazovski" class="history-photo">
@@ -66,7 +67,7 @@
             </div>
         </section>
 
-        <section class="portfolio-section" aria-label="portfolio section" id="portfolio-id">
+        <section class="portfolio" aria-label="portfolio section" id="portfolio-id">
             <div class="container">
                 <h2 class="portfolio-title" aria-label="portfolio title"><a href="/assets/index.html">Portfolio</a></h2>
                 <img src="/assets/webp/portfolio_1.webp" alt="Winter wagon train on the way" class="portfolio-photo_1">
@@ -78,6 +79,36 @@
             </div>
         </section>
     </main>
-    
+
+    <footer class="footer" aria-label="footer section" id="contacts-id">
+        <div class="container">
+            <h2 class="contacts-title" aria-label="contacts title"><a href="/assets/index.html">Contacts</a></h2>
+            <a href="https://ayvazovskiy.su" target="_blank" class="button-link"><button class="contacts-button">ayvazovskiy.su</button></a>
+            <address class="social" aria-label="social links">
+                <a href="https://youtube.com" target="_blank" aria-labelledby="link to youtube">
+                    <svg class="social-icon" aria-label="youtube icon">
+                        <use href="/assets/sprites.svg#youtube-icon"></use>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com" target="_blank" aria-labelledby="link to linkedin">
+                    <svg class="social-icon" aria-label="linkedin-icon">
+                        <use href="/assets/sprites.svg#linkedin-icon"></use>
+                    </svg>
+                </a>
+                <a href="https://instagram.com" target="_blank" aria-labelledby="link to instagram">
+                    <svg class="social-icon" aria-label="instagram-icon">
+                        <use href="/assets/sprites.svg#instagram-icon"></use>
+                    </svg>
+                </a>
+                <a href="https://facebook.com" target="_blank" aria-labelledby="link to facebook">
+                    <svg class="social-icon" aria-label="facebook-icon">
+                        <use href="/assets/sprites.svg#facebook-icon"></use>
+                    </svg>
+                </a>
+            </address>
+
+            <p class="contacts-description" aria-label="contacts description">More works you can see in these social networks</p>
+        </div>
+    </footer>
 </body>
 </html>
